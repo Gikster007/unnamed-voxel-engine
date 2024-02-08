@@ -16,6 +16,5 @@ void App::update(float dt)
 
 void App::shutdown()
 {
-    delete keys;
-    delete window;
+    
 }

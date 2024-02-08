@@ -1,0 +1,318 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "unnamed-voxel-engine.exe"
+		},
+		{
+			"path" : "unnamed-voxel-engine.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories",
+			"include_directories",
+			"target_precompile_headers",
+			"set_property"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI"
+				},
+				{
+					"fragment" : "/YcC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/./src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/libs/glfw/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/libs/glm"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					9
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 8,
+					"header" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/./src/precomp.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI"
+				},
+				{
+					"fragment" : "/YuC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/./src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/libs/glfw/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/libs/glm"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					9
+				],
+				"standard" : "20"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 8,
+					"header" : "C:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/./src/precomp.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "GLAD::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glfw::@9d94ad66e13f8aab41f7"
+		}
+	],
+	"id" : "unnamed-voxel-engine::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "GLAD.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libs\\glfw\\src\\glfw3.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "unnamed-voxel-engine",
+	"nameOnDisk" : "unnamed-voxel-engine.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/app/app.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/camera/camera.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/libs-init/glfw-init.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ray/ray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/window/window.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,8 +1,8 @@
 # ninja log v5
-10	434	7291050080164964	CMakeFiles/unnamed-voxel-engine.dir/main.cpp.obj	b0efdf3d56651193
+14	394	7291068258875666	CMakeFiles/unnamed-voxel-engine.dir/main.cpp.obj	c694a68a6a7c2513
 131	644	7290368840413980	libs/glfw/tests/CMakeFiles/iconify.dir/iconify.c.obj	107d27be38384e7a
 20	987	7290368333778839	libs/glfw/src/CMakeFiles/glfw.dir/init.c.obj	40ee4a7f824b1dd2
-376	492	7291046755575790	unnamed-voxel-engine.exe	ea9234fa80785bf7
+382	585	7291087481602464	unnamed-voxel-engine.exe	97ccf00c7385c37
 92	216	7290368325776450	libs/glfw/examples/CMakeFiles/boing.dir/glfw.rc.res	9296bc588310ac00
 17	223	7290374738011992	CMakeFiles/GLAD.dir/libs/glad.c.obj	2908532a381265a2
 126	643	7290368840333968	libs/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj	397beb99d9523b85
@@ -33,7 +33,7 @@
 167	807	7290368331458845	libs/glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj	5875fcf17ac150b3
 182	808	7290368331458845	libs/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj	15305aee9b72b586
 158	645	7290368840443963	libs/glfw/tests/CMakeFiles/reopen.dir/reopen.c.obj	782d6386b0e5c530
-12	74	7291032861468746	CMakeFiles/unnamed-voxel-engine.dir/src/libs-init/glfw-init.cpp.obj	fb69e3b26bc63c3f
+654	744	7291123442780710	CMakeFiles/unnamed-voxel-engine.dir/src/libs-init/glfw-init.cpp.obj	18459f79c548544f
 147	808	7290368331418848	libs/glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj	51c84dc35df4a953
 24	183	7290368835273939	libs/glfw/src/glfw3.lib	9f418a4d6c374d84
 285	808	7290368331558834	libs/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj	7da588c2214ebd70
@@ -131,5 +131,7 @@
 24	428	7290373452652136	libs/glfw/tests/title.exe	96f9769958e707b8
 4	59	7290381403129983	CMakeFiles/unnamed-voxel-engine.dir/src/glfw-init.cpp.obj	3e1009749d109aff
 8	123	7291020814510845	CMakeFiles/unnamed-voxel-engine.dir/src/window/game-window.cpp.obj	aae243936dee107b
-4	380	7291044847605632	CMakeFiles/unnamed-voxel-engine.dir/src/window/window.cpp.obj	3954afdf73e659c0
-4	158	7291055596435663	CMakeFiles/unnamed-voxel-engine.dir/src/app/app.cpp.obj	a962b2728338e796
+661	745	7291123442905759	CMakeFiles/unnamed-voxel-engine.dir/src/window/window.cpp.obj	f4bdb1ac05a835f1
+644	745	7291123442790693	CMakeFiles/unnamed-voxel-engine.dir/src/app/app.cpp.obj	f34ea021bd166528
+657	941	7291123444979222	CMakeFiles/unnamed-voxel-engine.dir/src/main.cpp.obj	7e2f86b3afaac98
+29	643	7291123442008848	CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.cxx.obj	25971b7a70164658

@@ -2,11 +2,8 @@
 
 #include <glad/glad.h>
 
-#include "src/window/window.h"
-#include "src/app/app.h"
-
-constexpr int WIN_HEIGHT = 1080;
-constexpr int WIN_WIDTH = 1920;
+#include "window/window.h"
+#include "app/app.h"
 
 bool keys[512] = {false};
 bool buttons[3] = {false};
@@ -40,8 +37,7 @@ int main()
     window.set_vsync(true);
 
     App app;
-    //app.init(&window, keys);
-
+    app.init(&window, keys);
 
     glfwSetKeyCallback(window.glfw_window, key_callback);
     glfwSetMouseButtonCallback(window.glfw_window, mouse_button_callback);
@@ -63,11 +59,11 @@ int main()
 
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        //app.update(deltaTime);
+        app.update(deltaTime);
 
         window.swap_buffers();
         glfwPollEvents();
     }
 
-    //app.shutdown();
+    app.shutdown();
 }

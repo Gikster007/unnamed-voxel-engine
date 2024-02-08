@@ -5,7 +5,7 @@ class Window;
 class App
 {
   public:
-    App();
+    App() = default;
     ~App() = default;
 
     void init(Window* _window, bool* _keys);

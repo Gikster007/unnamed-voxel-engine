@@ -12,13 +12,22 @@ endif()
 project ("unnamed-voxel-engine")
 
 # Add all .cpp files in the source directory to the project
-file(GLOB_RECURSE SOURCES "src/*.cpp" EXCLUDE "${CMAKE_SOURCE_DIR}/src/main.cpp")
+file(GLOB_RECURSE SOURCES "src/*.cpp")
 
 # Add main.cpp to the sources
-list(APPEND SOURCES "${CMAKE_SOURCE_DIR}/main.cpp")
+list(APPEND SOURCES "${CMAKE_SOURCE_DIR}/src/main.cpp")
 
 # Add source files to the project
 add_executable(unnamed-voxel-engine ${SOURCES})
+
+# Includes
+target_include_directories(unnamed-voxel-engine PRIVATE "./src/")
+
+# Precompiled Headers
+target_precompile_headers(unnamed-voxel-engine PRIVATE "./src/precomp.h")
+
+# Add source files to the program
+target_sources(unnamed-voxel-engine PRIVATE ${SOURCES})
 
 # Add GLAD to the project
 add_library(GLAD "libs/glad.c")

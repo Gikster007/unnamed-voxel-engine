@@ -49,35 +49,65 @@ cmake_ninja_workdir = C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-en
 
 build cmake_object_order_depends_target_unnamed-voxel-engine: phony || cmake_object_order_depends_target_GLAD cmake_object_order_depends_target_glfw
 
-build CMakeFiles\unnamed-voxel-engine.dir\src\app\app.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\app\app.cpp || cmake_object_order_depends_target_unnamed-voxel-engine
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
-  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
+build CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\out\build\x64-debug\CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx | CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.hxx || cmake_object_order_depends_target_unnamed-voxel-engine
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YcC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx
+  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\.\src -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
+  OBJECT_DIR = CMakeFiles\unnamed-voxel-engine.dir
+  OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir
+  TARGET_COMPILE_PDB = CMakeFiles\unnamed-voxel-engine.dir\
+  TARGET_PDB = unnamed-voxel-engine.pdb
+
+
+#############################################
+# Additional output files.
+
+build CMakeFiles\unnamed-voxel-engine.dir\.\cmake_pch.cxx.pch: phony CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.obj
+
+build CMakeFiles\unnamed-voxel-engine.dir\src\app\app.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\app\app.cpp | CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.hxx CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_unnamed-voxel-engine
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YuC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx
+  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\.\src -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
   OBJECT_DIR = CMakeFiles\unnamed-voxel-engine.dir
   OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir\src\app
   TARGET_COMPILE_PDB = CMakeFiles\unnamed-voxel-engine.dir\
   TARGET_PDB = unnamed-voxel-engine.pdb
 
-build CMakeFiles\unnamed-voxel-engine.dir\src\libs-init\glfw-init.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\libs-init\glfw-init.cpp || cmake_object_order_depends_target_unnamed-voxel-engine
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
-  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
+build CMakeFiles\unnamed-voxel-engine.dir\src\camera\camera.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\camera\camera.cpp | CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.hxx CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_unnamed-voxel-engine
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YuC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx
+  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\.\src -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
+  OBJECT_DIR = CMakeFiles\unnamed-voxel-engine.dir
+  OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir\src\camera
+  TARGET_COMPILE_PDB = CMakeFiles\unnamed-voxel-engine.dir\
+  TARGET_PDB = unnamed-voxel-engine.pdb
+
+build CMakeFiles\unnamed-voxel-engine.dir\src\libs-init\glfw-init.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\libs-init\glfw-init.cpp | CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.hxx CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_unnamed-voxel-engine
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YuC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx
+  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\.\src -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
   OBJECT_DIR = CMakeFiles\unnamed-voxel-engine.dir
   OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir\src\libs-init
   TARGET_COMPILE_PDB = CMakeFiles\unnamed-voxel-engine.dir\
   TARGET_PDB = unnamed-voxel-engine.pdb
 
-build CMakeFiles\unnamed-voxel-engine.dir\src\window\window.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\window\window.cpp || cmake_object_order_depends_target_unnamed-voxel-engine
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
-  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
+build CMakeFiles\unnamed-voxel-engine.dir\src\main.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\main.cpp | CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.hxx CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_unnamed-voxel-engine
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YuC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx
+  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\.\src -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
   OBJECT_DIR = CMakeFiles\unnamed-voxel-engine.dir
-  OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir\src\window
+  OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\unnamed-voxel-engine.dir\
   TARGET_PDB = unnamed-voxel-engine.pdb
 
-build CMakeFiles\unnamed-voxel-engine.dir\main.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\main.cpp || cmake_object_order_depends_target_unnamed-voxel-engine
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
-  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
+build CMakeFiles\unnamed-voxel-engine.dir\src\ray\ray.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\ray\ray.cpp | CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.hxx CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_unnamed-voxel-engine
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YuC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx
+  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\.\src -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
   OBJECT_DIR = CMakeFiles\unnamed-voxel-engine.dir
-  OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir
+  OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir\src\ray
+  TARGET_COMPILE_PDB = CMakeFiles\unnamed-voxel-engine.dir\
+  TARGET_PDB = unnamed-voxel-engine.pdb
+
+build CMakeFiles\unnamed-voxel-engine.dir\src\window\window.cpp.obj: CXX_COMPILER__unnamed-voxel-engine_unscanned_Debug C$:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\src\window\window.cpp | CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.hxx CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.pch || cmake_object_order_depends_target_unnamed-voxel-engine
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI /YuC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx /FpC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/./cmake_pch.cxx.pch /FIC:/Users/gikst/Documents/Programming/C++/unnamed-voxel-engine/out/build/x64-debug/CMakeFiles/unnamed-voxel-engine.dir/cmake_pch.hxx
+  INCLUDES = -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\.\src -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glfw\include -IC:\Users\gikst\Documents\Programming\C++\unnamed-voxel-engine\libs\glm
+  OBJECT_DIR = CMakeFiles\unnamed-voxel-engine.dir
+  OBJECT_FILE_DIR = CMakeFiles\unnamed-voxel-engine.dir\src\window
   TARGET_COMPILE_PDB = CMakeFiles\unnamed-voxel-engine.dir\
   TARGET_PDB = unnamed-voxel-engine.pdb
 
@@ -89,7 +119,7 @@ build CMakeFiles\unnamed-voxel-engine.dir\main.cpp.obj: CXX_COMPILER__unnamed-vo
 #############################################
 # Link the executable unnamed-voxel-engine.exe
 
-build unnamed-voxel-engine.exe: CXX_EXECUTABLE_LINKER__unnamed-voxel-engine_Debug CMakeFiles\unnamed-voxel-engine.dir\src\app\app.cpp.obj CMakeFiles\unnamed-voxel-engine.dir\src\libs-init\glfw-init.cpp.obj CMakeFiles\unnamed-voxel-engine.dir\src\window\window.cpp.obj CMakeFiles\unnamed-voxel-engine.dir\main.cpp.obj | GLAD.lib libs\glfw\src\glfw3.lib || GLAD.lib libs\glfw\src\glfw3.lib
+build unnamed-voxel-engine.exe: CXX_EXECUTABLE_LINKER__unnamed-voxel-engine_Debug CMakeFiles\unnamed-voxel-engine.dir\cmake_pch.cxx.obj CMakeFiles\unnamed-voxel-engine.dir\src\app\app.cpp.obj CMakeFiles\unnamed-voxel-engine.dir\src\camera\camera.cpp.obj CMakeFiles\unnamed-voxel-engine.dir\src\libs-init\glfw-init.cpp.obj CMakeFiles\unnamed-voxel-engine.dir\src\main.cpp.obj CMakeFiles\unnamed-voxel-engine.dir\src\ray\ray.cpp.obj CMakeFiles\unnamed-voxel-engine.dir\src\window\window.cpp.obj | GLAD.lib libs\glfw\src\glfw3.lib || GLAD.lib libs\glfw\src\glfw3.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = GLAD.lib  libs\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
